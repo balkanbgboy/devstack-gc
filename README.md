@@ -19,7 +19,7 @@ In Compute Engine Create a new VM
 	
 Open SSH console and run screen to help you get back the session when SSH conection gets lost (reestablish ssh and run screen -r), clone this repo:
 
-git clone https://github.com/kris-at-occ/devstack-gcp
+git clone https://github.com/balkanbgboy/devstack-gc
 
 
 
