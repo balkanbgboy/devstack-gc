@@ -25,6 +25,6 @@ git clone https://github.com/balkanbgboy/devstack-gc
 
 Run script to install Devstack with latest master:
 
-sh devstack-gcp/devstack.sh
+sh devstack-gc/devstack.sh
 
 The script displays Horizon Dashboard URL in the very last line of the output.
