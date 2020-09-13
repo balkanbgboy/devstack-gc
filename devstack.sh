@@ -18,17 +18,6 @@ ADMIN_PASSWORD=openstack
 DATABASE_PASSWORD=openstack
 RABBIT_PASSWORD=openstack
 SERVICE_PASSWORD=openstack
-# Configure Nova novnc Proxy Base URL with External IP of this Instance
-NOVNCPROXY_URL=http://$externalip:6080/vnc_auto.html
-# Enable Heat
-enable_plugin heat https://git.openstack.org/openstack/heat
-# Enable Swift
-enable_service s-proxy s-object s-container s-account
-SWIFT_HASH=66a3d6b56c1f479c8b4e70ab5c2000f5
-SWIFT_REPLICAS=1
-SWIFT_DATA_DIR=$DEST/data/swift
-# Enable Cinder Backup
-enable_service c-bak
 EOF
 
 ./stack.sh
